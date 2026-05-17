@@ -1,0 +1,40 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.release.backup
+pom.xml.releaseBackup
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Minecraft
+run/
+config/chatgptfabric/config.json
+
+# Project specific
+*.log
+*.swp
+*.swo
+*~

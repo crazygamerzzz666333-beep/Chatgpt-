@@ -1,0 +1,5 @@
+{
+  "command.chatgptfabric.gpt": "Ask ChatGPT a question",
+  "command.chatgptfabric.gpt.question": "Your question",
+  "command.chatgptfabric.gptreload": "Reload ChatGPT config"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "chatgptfabric",
+  "version": "${version}",
+  "name": "ChatGPT Fabric",
+  "description": "Add a real ChatGPT-powered AI assistant into Minecraft chat using the OpenAI API.",
+  "authors": [
+    "crazygamerzzz666333-beep"
+  ],
+  "contact": {
+    "homepage": "https://github.com/crazygamerzzz666333-beep/Chatgpt-",
+    "sources": "https://github.com/crazygamerzzz666333-beep/Chatgpt-"
+  },
+  "license": "MIT",
+  "icon": "assets/chatgptfabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chatgpt.ChatGPTFabricMod"
+    ],
+    "server": [
+      "com.chatgpt.ChatGPTFabricServer"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
